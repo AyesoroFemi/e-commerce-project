@@ -147,11 +147,11 @@ select{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.hero-category img{
+/* .hero-category img{ */
     /* width: 500px;
     border: 2px solid red; */
     /* overflow-x: scroll; */
-}
+/* } */
 
 .best-seller {
    display: flex;
