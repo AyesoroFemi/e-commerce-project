@@ -27,6 +27,7 @@ section{
     width: 100%;
    margin: 0 auto;
    padding: 0 20px;
+   /* border: 3px solid red; */
 }
 .sub-main .username{
     padding-top: 3.75rem;
@@ -81,15 +82,20 @@ input[type=text], input[type=password], input[type=submit]{
     outline: none;
     border: 2px solid rgb(241, 243, 244);
 }
-input[type=submit]{
+ input[type=submit]{
     background-color: rgb(255, 72, 88);
     color: white;
     border:none;
     padding: 18px;
     font-size: 1rem;
     cursor: pointer;
-}
-.sub-main .bottom{
+} 
+ .sub-main .bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+} 
+.heading, .bottom {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
